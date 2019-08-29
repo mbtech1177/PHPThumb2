@@ -1,0 +1,29 @@
+{
+    "name": "mbtech1177/phpthumb",
+    "type": "library",
+    "license": "MIT",
+    "description": "A library for manipulating images in PHP.",
+    "keywords": ["image", "resize", "rotate"],
+    "require": {
+        "php": ">=5.3.0" 
+    },
+    "homepage": "https://github.com/mbtech1177/PHPThumb",
+    "authors": [{
+            "name": "Ian Selby",
+            "email": "ian@gxdlabs.com"
+        },
+        {
+            "name": "Jarrod Nettles",
+            "email": "jarrod.nettles@icloud.com"
+        },
+        {
+            "name": "mbtech",
+            "email": "me@mbtech.id"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PHPThumb": "src"
+        }
+    }
+}
